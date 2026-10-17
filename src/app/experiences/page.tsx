@@ -10,7 +10,7 @@ const experience = [
   {
     role: 'Software Engineer',
     company: 'Ranovus',
-    org: 'System Verification Team',
+    org: null,
     location: 'Ottawa, ON',
     period: 'Sep 2024 – Present',
     bullets: [
@@ -18,7 +18,7 @@ const experience = [
       'Built a Python Flask API bridging Raspberry Pi devices to the ML4079EN BERT instrument, lifting the vendor API’s Windows-only restriction and opening up FEC monitoring across the team’s platforms',
       'Designed and implemented the ILS Soak System with the VP of Platform Engineering: continuous automated optical-power testing with data logging, graph generation, and automated reporting that now qualifies every device before it ships',
       'Validated ODIN8P firmware builds through targeted regression suites and root-cause analysis alongside the firmware and hardware teams',
-      'Building the Test Management Platform in C# and Blazor: a central home for tests, requirements, and coverage, with live and historical run data',
+      'Build and maintain C# .NET web applications for internal Ranovus tooling',
     ],
   },
   {
