@@ -1,7 +1,9 @@
 import { MetadataRoute } from 'next';
 import { posts } from '@/data/blog';
 
-const baseUrl = 'https://hasibkhodayar.vercel.app';
+export const dynamic = 'force-static';
+
+const baseUrl = 'https://hasibkhodayar.github.io/Portfolio';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

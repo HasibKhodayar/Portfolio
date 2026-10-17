@@ -1,5 +1,4 @@
 import PageLayout from '@/components/layout/PageLayout';
-import ContactForm from '@/components/sections/Contact';
 import CopyEmail from '@/components/ui/CopyEmail';
 import type { Metadata } from 'next';
 
@@ -64,10 +63,14 @@ export default function ContactPage() {
           {/* Divider */}
           <hr className="border-subtle mb-12" />
 
-          {/* Contact form */}
+          {/* CTA */}
           <section>
-            <h2 className="text-warm-white/55 font-light tracking-widest uppercase mb-8" style={{ fontSize: '11px' }}>send a message</h2>
-            <ContactForm />
+            <a
+              href="mailto:khodayarhasib@gmail.com"
+              className="inline-flex px-5 py-2.5 bg-accent text-fg rounded text-sm font-medium hover:opacity-75 transition-opacity"
+            >
+              send me an email
+            </a>
           </section>
         </div>
     </PageLayout>

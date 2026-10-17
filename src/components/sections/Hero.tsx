@@ -76,7 +76,7 @@ export default function Hero() {
             about me
           </Link>
           <a
-            href="/Hasib_Khodayar_Resume.pdf"
+            href="/Portfolio/Hasib_Khodayar_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 border border-subtle text-warm-white/65 rounded text-sm hover:border-accent hover:text-accent transition-colors"

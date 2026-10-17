@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteUrl = 'https://hasibkhodayar.vercel.app';
+const siteUrl = 'https://hasibkhodayar.github.io/Portfolio';
 
 export const metadata: Metadata = {
   title: {
